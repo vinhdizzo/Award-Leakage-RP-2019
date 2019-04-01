@@ -22,3 +22,6 @@ This accompanies the Award Leakage presentation presented at the RP Conference 2
 	- [03_Accounting_Award_Example_Query.sql](Code/03_Accounting_Award_Example_Query.sql): Example query for identifying students that meet the Accounting certificate requirements.
 	- [04_Award_Query_Template.sql](Code/04_Award_Query_Template.sql): A query template (similar to the previous) that could be used to substitute major requirements (eg, for other majors) listed in `IVC Award Requirements.xlsx`.
 	- [05_Generate_Student_Candidate_List.R](Code/05_Generate_Student_Candidate_List.R): code that ingests the the major requirements (`IVC Award Requirements.xlsx`), substitutes these requirements into `04_Award_Query_Template.sql`, and flags whether each student qualifies for the award.  This is replicated for every award.
+	- `Generated Code` subfolder
+		- [000 - General Education.sql](Code/Generated%20Code/000%20-%20General%20Education.sql): code generated from `02_Create_GE_Flags.R` that creates GE flags.
+		- `001 - Accounting - CV - 20191.sql` -- `147 - Social And Behavioral Sciences - AA - 20191.sql`: code generated from `05_Generate_Student_Candidate_List.R` that identifies award completers.
