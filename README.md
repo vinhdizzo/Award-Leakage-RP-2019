@@ -1,4 +1,6 @@
-## README
+# README
+
+## Repo description
 
 This repo contains code and logic for identifying award (degree and certificate) completers at Irvine Valley College.
 
@@ -7,13 +9,13 @@ This accompanies the Award Leakage presentation presented at the RP Conference 2
 ## File descriptions
 
   - `Background` folder
-	- [AA_AS IVC GE 18-19 with name.pdf](Background/AA_AS IVC GE 18-19 with name.pdf): Local/native IVC general education requirements.
-	- [CSU GE 18-19 with name .pdf](Background/CSU GE 18-19 with name .pdf): CSU general education requirements.
-	- [IGETC GE 18-19 with name.pdf](Background/IGETC GE 18-19 with name.pdf): IGETC general education requirements.
+	- [AA_AS IVC GE 18-19 with name.pdf](Background/AA_AS%20IVC%20GE%2018-19%20with%20name.pdf): Local/native IVC general education requirements.
+	- [CSU GE 18-19 with name .pdf](Background/CSU%20GE%2018-19%20with%20name%20.pdf): CSU general education requirements.
+	- [IGETC GE 18-19 with name.pdf](Background/IGETC%20GE%2018-19%20with%20name.pdf): IGETC general education requirements.
 	- [Irvine+Valley+College+2018-19+Catalog+July+2018+Edition.pdf](Background/Irvine+Valley+College+2018-19+Catalog+July+2018+Edition.pdf): IVC 2018-2019 catalog (major requirements).
   - `Input` folder
-	- [GE Patterns 2018-2019.xlsx](Input/GE Patterns 2018-2019.xlsx): Transcribed GE requirements (3 sheets for 3 patterns).
-	- [IVC Award Requirements.xlsx](Input/IVC Award Requirements.xlsx): Transcribed major requirements for different certificates and degrees.
+	- [GE Patterns 2018-2019.xlsx](Input/GE%20Patterns%202018-2019.xlsx): Transcribed GE requirements (3 sheets for 3 patterns).
+	- [IVC Award Requirements.xlsx](Input/IVC%20Award%20Requirements.xlsx): Transcribed major requirements for different certificates and degrees.
   - `Code` folder
 	- [01_GE_Base_Query_Template.sql](Code/01_GE_Base_Query_Template.sql): a base query for flagging whether a student meets each of the three GE patterns.
 	- [02_Create_GE_Flags.R](Code/02_Create_GE_Flags.R): code that ingests the 3 GE pattern requirements, substitutes these requirements into `01_GE_Base_Query_Template.sql`, and flags each student for the three GE patterns.
