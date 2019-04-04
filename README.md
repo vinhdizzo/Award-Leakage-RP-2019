@@ -8,7 +8,7 @@ This accompanies the Award Leakage presentation presented at the RP Conference 2
 
 ## File descriptions
 
-  - [Award Leakage - RP 2019.pdf](/Award Leakage%20-%20RP%202019.pdf): presentation
+  - [Award Leakage - RP 2019.pdf](/Award%20Leakage%20-%20RP%202019.pdf): presentation
   - `Background` folder
 	- [AA_AS IVC GE 18-19 with name.pdf](Background/AA_AS%20IVC%20GE%2018-19%20with%20name.pdf): Local/native IVC general education requirements.
 	- [CSU GE 18-19 with name .pdf](Background/CSU%20GE%2018-19%20with%20name%20.pdf): CSU general education requirements.
